@@ -39,7 +39,7 @@ class DigimonAdapter(private val digimon_list: List<Digimon>)
         context = holder.itemView.context
 
         holder.itemView.setOnClickListener{
-            val text = "Hello " +digimon.name+ " you are nice!"
+            val text = "Acabas de seleccionar a " +digimon.name+ ""
             val duration = Toast.LENGTH_SHORT
             val toast = Toast.makeText(context, text, duration)
             toast.show()
